@@ -1,7 +1,18 @@
 'use strict';
-
+const https = require("https");
 const express = require('express');
+const fs = require('fs');
 const app = express();
+
+https
+    .createServer({
+        key: fs.readFileSync("key.pem"),
+        cert: fs.readFileSync("cert.pem"),
+    },app)
+    .listen(443, ()=>{
+        console.log('server is runing at port 443')
+    });
+
 app.use(express.json());
 
 // Your code starts here. Placeholders for .get and .post are provided for
@@ -57,7 +68,7 @@ app.get('/candidates/search', function(req, res) {
 
 
 
-app.listen(process.env.HTTP_PORT || 3000);
+// app.listen(process.env.HTTP_PORT || 3000);
 
 function findCadidate(skillsList, candidates) {
     const score = {}; // number : id
