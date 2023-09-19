@@ -48,6 +48,14 @@
                     "type": "numeric",
                     "GUID": "be5a4b82-9bb4-4575-9044-354d8152f7e4",
                     "error": {}
+                },
+                {
+                    "name": "git 2",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "d53df33f-9fce-4a69-ac0f-c8392ce64a68",
+                    "error": {}
                 }
             ],
             "definitions": {
@@ -122,7 +130,8 @@
         "62e86e13-e1c4-4310-a11d-4393d4f9bb9f": "erdv1",
         "27acc2d2-9bbd-4610-845f-f16c8514fedf": "erdv2",
         "0615cb51-a0b4-4e17-8abe-f4eb3ec5f43d": "New Collection(1)",
-        "be5a4b82-9bb4-4575-9044-354d8152f7e4": "git remote"
+        "be5a4b82-9bb4-4575-9044-354d8152f7e4": "git remote",
+        "d53df33f-9fce-4a69-ac0f-c8392ce64a68": "git 2"
     },
     "definitions": {
         "type": "definitions",
@@ -147,7 +156,7 @@
     "creationTS": "2023-09-12T07:28:02.849Z",
     "GUID": "70e0b511-aca8-4cfc-9a1a-a212a28cdf60",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-09-19T12:58:13.338Z",
+    "lastModifTS": "2023-09-19T13:03:55.070Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
