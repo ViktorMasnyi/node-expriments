@@ -64,6 +64,15 @@
                     "type": "string",
                     "GUID": "101d0bcf-a3ea-4e17-a91f-934497a8a567",
                     "error": {}
+                },
+                {
+                    "type": "string",
+                    "name": "git4",
+                    "isActivated": true,
+                    "GUID": "3cee9024-26db-4cd1-a2d3-141606075c89",
+                    "sampleName": "",
+                    "isPatternField": true,
+                    "error": {}
                 }
             ],
             "definitions": {
@@ -140,7 +149,8 @@
         "0615cb51-a0b4-4e17-8abe-f4eb3ec5f43d": "New Collection(1)",
         "be5a4b82-9bb4-4575-9044-354d8152f7e4": "git remote",
         "d53df33f-9fce-4a69-ac0f-c8392ce64a68": "git 2",
-        "101d0bcf-a3ea-4e17-a91f-934497a8a567": "git 3"
+        "101d0bcf-a3ea-4e17-a91f-934497a8a567": "git 3",
+        "3cee9024-26db-4cd1-a2d3-141606075c89": "git4"
     },
     "definitions": {
         "type": "definitions",
@@ -165,7 +175,7 @@
     "creationTS": "2023-09-12T07:28:02.849Z",
     "GUID": "70e0b511-aca8-4cfc-9a1a-a212a28cdf60",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-09-19T13:05:32.736Z",
+    "lastModifTS": "2023-09-19T13:09:29.003Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
