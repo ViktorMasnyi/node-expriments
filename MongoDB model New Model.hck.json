@@ -15,6 +15,14 @@
                         "name": false,
                         "code": false
                     }
+                },
+                {
+                    "name": "git 7",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "548fb20c-fa13-4cb9-ac2e-254f5c0b9722",
+                    "error": {}
                 }
             ],
             "definitions": {
@@ -168,7 +176,8 @@
         "101d0bcf-a3ea-4e17-a91f-934497a8a567": "git 3",
         "3cee9024-26db-4cd1-a2d3-141606075c89": "git4",
         "aac8be70-336f-421e-b7b7-e8b11e088e1c": "git 5",
-        "344a5749-1291-4aa8-b4d5-ed59438faba3": "git 6"
+        "344a5749-1291-4aa8-b4d5-ed59438faba3": "git 6",
+        "548fb20c-fa13-4cb9-ac2e-254f5c0b9722": "git 7"
     },
     "definitions": {
         "type": "definitions",
@@ -193,14 +202,14 @@
     "creationTS": "2023-09-12T07:28:02.849Z",
     "GUID": "70e0b511-aca8-4cfc-9a1a-a212a28cdf60",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-09-20T10:24:59.990Z",
+    "lastModifTS": "2023-09-20T10:32:24.697Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.10.0"
+        "version": "6.9.14"
     },
     "hackoladeMeta": {},
     "settings": {
