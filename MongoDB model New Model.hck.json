@@ -31,6 +31,14 @@
                     "type": "string",
                     "GUID": "25fadabf-4218-4c7c-9ff9-6019789e76de",
                     "error": {}
+                },
+                {
+                    "name": "git9",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "f26dd289-5197-4c3b-a9f9-edccbe0d953a",
+                    "error": {}
                 }
             ],
             "definitions": {
@@ -186,7 +194,8 @@
         "aac8be70-336f-421e-b7b7-e8b11e088e1c": "git 5",
         "344a5749-1291-4aa8-b4d5-ed59438faba3": "git 6",
         "548fb20c-fa13-4cb9-ac2e-254f5c0b9722": "git 7",
-        "25fadabf-4218-4c7c-9ff9-6019789e76de": "git 8"
+        "25fadabf-4218-4c7c-9ff9-6019789e76de": "git 8",
+        "f26dd289-5197-4c3b-a9f9-edccbe0d953a": "git9"
     },
     "definitions": {
         "type": "definitions",
@@ -211,7 +220,7 @@
     "creationTS": "2023-09-12T07:28:02.849Z",
     "GUID": "70e0b511-aca8-4cfc-9a1a-a212a28cdf60",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-09-20T10:34:17.724Z",
+    "lastModifTS": "2023-09-20T10:42:47.130Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
